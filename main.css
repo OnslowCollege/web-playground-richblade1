@@ -1,7 +1,59 @@
-body {
-    background-colour: antiquewhite;
-	}
-	
-	h1{
-	font-family: "Copperplate","Helvetica", sans-serif;
-	}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>My Clash Royale Strategy Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Matches</a></li>
+        <li><a href="#">My Profile</a></li>
+    </ul>
+    </nav>
+    <h1>MY CLASH ROYALE STRATEGY GUIDE</h1>
+</header>
+
+<main class="overview">
+    <section class="menu">
+    <a href="basics">THE BASICS</a>
+    <a href="tips">TIPS AND TRICKS</a>
+    <a href="recommend">WHAT I RECOMMEND</a>
+    </section>
+
+    <section class="details">
+    <div id="basics">
+        <h2>THE BASICS OF CLASH</h2>
+        <img src="placeholder.jpg" alt="Basics Image">
+        <p>Write your intro to Clash Royale here...</p>
+    </div>
+
+    <div id="tips">
+        <h2>TIPS AND TRICKS</h2>
+        <ol>
+        <li>Tip 1: Save elixir early game.</li>
+        <li>Tip 2: Counter-push after defending.</li>
+        <li>Tip 3: Know your win condition.</li>
+        <li>Tip 4: Watch pro replays.</li>
+        <li>Tip 5: Practice timing and placement.</li>
+        </ol>
+    </div>
+
+    <div id="recommend">
+        <h2>My Recommended Decks</h2>
+        <img src="deck-placeholder.jpg" alt="Deck Image">
+        <p>Explain your favorite decks and why they work.</p>
+    </div>
+
+    <div id="video">
+        <h2>My Video</h2>
+        <img src="video-placeholder.jpg" alt="Video Thumbnail">
+        <p>Embed or link your gameplay video here.</p>
+    </div>
+    </section>
+</main>
+</body>
+</html>
